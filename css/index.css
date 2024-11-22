@@ -1,10 +1,30 @@
+@media (prefers-color-scheme: dark) {
 html
 {
     font-family: serif;
     padding: 0.5%;
     background-color: #111111;
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
+}
+a
+{
+    color: lightblue;
+}
+}
+@media (prefers-color-scheme: light) {
+    html
+    {
+        font-family: serif;
+        padding: 0.5%;
+        background-color: white;
+        color: black;
+        font-size: 3vw;
+    }
+    a 
+    {
+        color: blue;
+    }
 }
 h1
 {
@@ -14,12 +34,7 @@ h1
 h2
 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vw;
-}
-h3
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw
+    font-size: 4vw;
 }
 .header
 {
@@ -31,10 +46,6 @@ h3
     flex-direction: row;
     flex-wrap: wrap;
     gap: 25%;
-}
-a
-{
-    color: lightblue;
 }
 a:visited
 {
