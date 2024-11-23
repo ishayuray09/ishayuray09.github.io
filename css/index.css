@@ -1,97 +1,38 @@
-
-@media screen and (max-width: 800px) {
-    @media (prefers-color-scheme: dark) {
-        html
-        {
-            font-family: serif;
-            padding: 0.5%;
-            background-color: #111111;
-            color: white;
-            font-size: 3vw;
-        }
-        a
-        {
-            color: lightblue;
-        }
-        }
-    @media (prefers-color-scheme: light) {
-            html
-            {
-                font-family: serif;
-                padding: 0.5%;
-                background-color: white;
-                color: black;
-                font-size: 3vw;
-            }
-            a 
-            {
-                color: blue;
-            }
-        }
-        h1
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 5vw;
-        }   
-        h2
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 3vw;
-        }
+@media (prefers-color-scheme: dark) {
+    html
+    {
+        background-color: #222222;
+        color: white;
+        padding: 1%;
+        font-size: 125%
+    }
+    a
+    {
+        color: lightblue;
+    }
 }
-@media screen and (min-width: 600px) {
-    @media (prefers-color-scheme: dark) {
-        html
-        {
-            font-family: serif;
-            padding: 0.5%;
-            background-color: #111111;
-            color: white;
-            font-size: 1vw;
-        }
-        a
-        {
-            color: lightblue;
-        }
-        }
-    @media (prefers-color-scheme: light) {
-            html
-            {
-                font-family: serif;
-                padding: 0.5%;
-                background-color: white;
-                color: black;
-                font-size: 1vw;
-            }
-            a 
-            {
-                color: blue;
-            }
-        }
-        h1
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 5vw;
-        }   
-        h2
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 2vw;
-        }
+@media (prefers-color-scheme: light) {
+    html
+    {
+        background-color: white;
+        color: black;
+        padding: 1%;
+        font-size: 125%
+    }
+    a 
+    {
+        color: blue;
+    }
 }
 
-.header
-{
-    text-align: center;
+.header {
+    font-family: sans-serif;
 }
-.projblog
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 25%;
+
+h1 {
+    font-size: 300%;
 }
 a:visited
 {
-    color: fuchsia;
+    color:fuchsia
 }
